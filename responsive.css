@@ -1,0 +1,21 @@
+
+@media screen and (max-width: 500px){
+
+    html {
+        transform: rotate(-90deg);
+        transform-origin: left top;
+        width: 100vh;
+        overflow-x: hidden;
+        position: absolute;
+        top: 100%;
+        left: 0;
+      }
+    body{
+      color: white;
+    background-color: rgb(53, 48, 48);
+}
+.game{
+   margin-top: 10% !important;
+
+}
+}

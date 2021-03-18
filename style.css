@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+ body{
+     background-image: url(https://data.whicdn.com/images/311484332/original.gif);
+ background-size: 100% 100%;
+ color: white;
+    }
+.game{
+    width: 500px;
+    height: 200px;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    background-image: url();
+}
+#character{
+    position: relative;
+    background: #4bcffa;
+    box-shadow: 10px 10px 30px #4bcffa;
+    width: 20px;
+    height: 50px;
+    top: 150px;
+}
+.jumpOnce{
+    animation: jumpOne 1s linear;
+}
+@keyframes jumpOne{
+    0%{top: 150px;}
+    30%{top: 80px;}
+  
+    100%{top: 150px;}
+}
+.jumpDbl{
+animation: jumpTwo 1s linear;
+}
+@keyframes jumpTwo{
+    0%{top: 150px;}
+    30%{top: 10px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
+}
+#block{
+    position: relative;
+    background: #ff4757;
+    box-shadow: 10px 10px 30px #ff4757;
+    width: 20px;
+    height: 20px;
+    top: 130px;
+    left: 500px;
+    animation: block 2s infinite linear ;
+}
+@keyframes block{
+    0%{left: 500px;}
+    100%{left: -20px;}
+}
+#block2{
+    position: relative;
+    background: #C4E538;
+    box-shadow: 10px 10px 30px #C4E538;
+    width: 20px;
+    height: 50px;
+    top: 80px;
+    left: 500px;
+    animation: block2 1s infinite linear ;
+    animation-delay: 4s;
+}
+@keyframes block2{
+    0%{left: 500px;}
+    100%{left: -20px;}
+}
+p{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    box-shadow: 10px 10px 30px white;
+}
